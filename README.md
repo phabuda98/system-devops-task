@@ -18,7 +18,7 @@ http://127.0.0.1:8000/
 http://127.0.0.1:8000/docs
 
 
-#Simple GoLang redirector
+# Simple GoLang redirector
 The "client" side 
 
 Sends out a request to the server, receives a JSON number as a response, and redirects the user accordingly. If running locally adjust the http://server:8000 URL accordingly.
