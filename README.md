@@ -10,11 +10,13 @@ Setup
 Basic setup instructions. Use Python 3
 
 pip install -r requirements.txt
+
 uvicorn main:app --host 0.0.0.0
 
 Access via
 
 http://127.0.0.1:8000/
+
 http://127.0.0.1:8000/docs
 
 
