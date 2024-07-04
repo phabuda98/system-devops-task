@@ -1,5 +1,4 @@
 version: "3"
-
 services:
   server:
     image: server
@@ -7,13 +6,11 @@ services:
       - "8000:8000"
     networks:
       - my-net
-
   client:
     image: client
     ports:
       - "8090:8090"
     networks:
       - my-net
-
 networks:
   my-net:
